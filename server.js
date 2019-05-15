@@ -27,7 +27,7 @@ pool.query(
     ['ron', 2],
     (error, results) => {
         if (error) {
-            throw error
+            throw error;
         }
         console.log(results);
     }
