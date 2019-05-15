@@ -29,7 +29,7 @@ pool.query(
         if (error) {
             throw error
         }
-        console.log(results)
+        console.log(results);
     }
 )
 
